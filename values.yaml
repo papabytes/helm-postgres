@@ -55,7 +55,7 @@ postgresService:
   nodePort: 35432
 
 pgadminService:
-  type: ClusterIp
+  type: ClusterIP
   port: 80
   name: svc-microk8s-pgadmin
 
