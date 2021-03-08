@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "microk8s-postgres.fullname" . }}-test-connection"
+  labels:
+    {{- include "microk8s-postgres.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "microk8s-postgres.fullname" . }}:{{ .Values.postgresService.port }}']
+  restartPolicy: Never

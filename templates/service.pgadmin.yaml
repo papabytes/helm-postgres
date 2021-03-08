@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.pgadminService.name }}
+  labels:
+    {{- include "microk8s-postgres.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.pgadminService.type }}
+  ports:
+    - port: {{ .Values.pgadminService.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "microk8s-pgadmin.selectorLabels" . | nindent 4 }}
