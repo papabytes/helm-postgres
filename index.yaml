@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  microk8s-postgres:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-03-08T10:51:36.7165504Z"
+    description: A Helm chart for Kubernetes
+    digest: bfe01aff58d9f1a35618912965efe0aa5fe0978d5be96e07a5dda890fc8610ef
+    name: microk8s-postgres
+    type: application
+    urls:
+    - microk8s-postgres-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-03-08T10:51:36.715573Z"
