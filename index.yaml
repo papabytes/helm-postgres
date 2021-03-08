@@ -3,12 +3,12 @@ entries:
   microk8s-postgres:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2021-03-08T11:13:51.8978359Z"
+    created: "2021-03-08T11:15:43.3399382Z"
     description: A Helm chart for Kubernetes
-    digest: 425ed2b090f84034964f262d6b17a774f15874dc2a42e39708b62f9a41dbcfcd
+    digest: 62ecb3092fb48169719ce1bcf0ae0654c271af47f4cccac972cade9a55114b78
     name: microk8s-postgres
     type: application
     urls:
     - microk8s-postgres-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-08T11:13:51.8933878Z"
+generated: "2021-03-08T11:15:43.3389616Z"
