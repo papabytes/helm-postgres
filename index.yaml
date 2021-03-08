@@ -3,12 +3,12 @@ entries:
   microk8s-postgres:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2021-03-08T11:19:09.8147196Z"
+    created: "2021-03-08T11:29:24.018277Z"
     description: A single replica deployment of postgres with pgadmin
-    digest: 5e8acb0e0142f5436909d0c5c7b8cf1b1d77330893c63289e3c7b3f3fe80eec1
+    digest: d016e49f74a1c4edc6a137c23e36332498f7c1ef96363be0732be70d3186bb73
     name: microk8s-postgres
     type: application
     urls:
     - microk8s-postgres-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-08T11:19:09.8137427Z"
+generated: "2021-03-08T11:29:24.0173008Z"
